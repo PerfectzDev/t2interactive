@@ -2,120 +2,7 @@
 * Design and PSD by Blaz Robar (https://bit.ly/2bGx7Gd)
 */
 
-/*
-* #HEADER
-*/
-header {
-  height: 1240px;
-  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220926/pngtree-download-wallpapers-red-abstract-background-lines-wallpaper-image_1465946.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.header-container {
-  height: 1240px;
-  width: 1200px;
-  margin: 0 auto;
-}
-
-nav {
-  padding-top: 72px;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-left: 50px;
-  list-style-type: none;
-}
-
-nav ul li a {
-  padding-bottom: 11px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-  color: #ffffff;
-}
-
-nav ul li a:hover {
-  border-bottom: 2px solid #ff0000;
-}
-
-a.block-logo {
-  float: right;
-  margin-top: -20px;
-}
-
-.txt-col {
-  padding-top: 361px;
-}
-
-.header-txt h1 {
-  padding-top: 46px;
-  margin: 0 0 29px 0;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 45px;
-  color: #ffffff;
-}
-
-.header-txt p {
-  margin: 0 0 18px 0;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  color: #949da4;
-}
-
-.lines {
-  height: 150px;
-  position: relative;
-}
-
-.lines .md-line {
-  display: inline-block;
-}
-
-.lines .arrw {
-  display: inline-block;
-  position: absolute;
-  left: 83px;
-}
-
-.lines .arrw:hover {
-  transform: rotate(-90deg);
-}
-
-.lines .bttm-line {
-  display: inline-block;
-  position: absolute;
-  top: 40px;
-  left: -1px;
-}
-
-.arrow-links {
-  margin-top: 98px;
-}
-
-.arrow-links a {
-  display: inline-block;
-  cursor: pointer;
-}
-
-.arrow-links a:first-child {
-  margin-right: 7px;
-}
-
-.arrow-links img {
-  display: inline-block;
-}
 
 
 /*
@@ -671,10 +558,6 @@ footer {
   display: none;
 }
 
-.logo{
-  width: 100px;
-  height: 100px;
-}
 
 #up-btn .fa {
   color: #ff0000;
@@ -687,4 +570,26 @@ footer {
 #up-btn:hover {
   display: block;
   /* up-btn block isn't blinking when hovered */
+}
+
+.txt-col {
+  padding-top: 20%;
+}
+
+
+.header-txt h1 {
+  padding-top: 46px;
+  margin: 0 0 29px 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.header-txt p {
+  margin: 0 0 18px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #949da4;
 }

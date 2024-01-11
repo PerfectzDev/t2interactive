@@ -1,24 +1,13 @@
 <body>
-<header id="up">
-  <div class="header-container">
-    <nav>
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <a class="block-logo" href="#"><img src="./assets/images/t2-interactive.jpg" class= "logo" alt="logo"></a>
-    <div class="txt-col">
-      <img src="http://bit.ly/2u7YgMf" alt="top line decoration">
-      <div class="header-txt">
-        <h1>T2 Interactive<br>International Sdn Bhd</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore</p>
-      </div>
+<app-header [currentPage]="'home'">
+  <div class="txt-col">
+    <img src="http://bit.ly/2u7YgMf" alt="top line decoration">
+    <div class="header-txt">
+      <h1>T2 Interactive<br>International Sdn Bhd</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore</p>
     </div>
   </div>
-</header>
+</app-header>
 <main>
   <div class="section1">
     <div class="container1">

@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   title = 't2interactive';
+  protected readonly customElements = customElements;
 }
