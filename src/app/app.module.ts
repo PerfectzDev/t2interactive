@@ -19,6 +19,7 @@ import {OurProjectComponent} from "./components/our-project/our-project.componen
 import {AboutUsComponent} from "./components/about/about-us.component";
 import {NzGridModule} from "ng-zorro-antd/grid";
 import {OurServiceComponent} from "./components/our-service/our-service.component";
+import {FooterComponent} from "./components/footer/footer.component";
 
 registerLocaleData(en);
 
@@ -26,6 +27,7 @@ registerLocaleData(en);
   declarations: [
     AppComponent,
     HeaderComponent,
+    FooterComponent,
     HomeComponent,
     ContactUsComponent,
     AboutUsComponent,

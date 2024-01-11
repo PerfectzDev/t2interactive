@@ -8,7 +8,8 @@
         <nz-row class="pt-3 mt-3">
           <nz-col *ngFor="let videoModel of videoModels" nzSpan="8">
             <h6>{{videoModel.title}}</h6>
-            <iframe [src]="convertSafeUrl(videoModel.videoLink)" frameborder="0"
+            <iframe [src]="convertSafeUrl(videoModel.videoLink)" [title]="videoModel.title" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
           </nz-col>
         </nz-row>
@@ -23,7 +24,7 @@
         </h2>
         <nz-row class="pt-3 mt-3">
           <nz-col *ngFor="let client of clientList" nzSpan="6">
-            <nz-card class="overflow-hidden" >
+            <nz-card class="overflow-hidden">
               <h6>{{client.category}}</h6>
               <p>{{client.clients.toString()}}</p>
             </nz-card>
@@ -36,9 +37,5 @@
 </div>
 
 <!-- footer section -->
-<footer class="container-fluid footer_section">
-  <p>
-    &copy; <span id="currentYear"></span> All Rights Reserved. Design by
-    <a href="https://html.design/">Free Html Templates</a>
-  </p>
-</footer>
+<app-footer></app-footer>
+
